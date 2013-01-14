@@ -1,0 +1,18 @@
+This is a program that I wrote for my COMS W3137 
+Data Structures and Algorithms course. 
+
+Main: 	TSPTester.java
+
+To Run:	javac TSPTester.java
+	java TSPTester
+
+DESIGN
+
+This incorporates a GUI which takes a user input 
+integer and creates that amount of points in 
+random locations. The remaining buttons in the GUI
+perform incremental actions towards creating an
+optimal path between the points. The last actually
+uses brute force to compute the TSP solution. With
+large input integers, the running time of this 
+action obviously becomes excessively long.
